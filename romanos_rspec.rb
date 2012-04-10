@@ -13,4 +13,8 @@ describe Romanos do
     it "2 debe ser II" do
       @romano.convertir(1).should == "I"
   end
+
+  it "3 debe ser III" do
+      @romano.convertir(1).should == "I"
+  end
 end
