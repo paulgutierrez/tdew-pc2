@@ -23,6 +23,22 @@ describe Romanos do
   end
 
   it "5 debe ser V" do
-      @romano.convertir(4).should == "IV"
+      @romano.convertir(5).should == "V"
   end
+
+
+  it "6 debe ser VI" do
+      @romano.convertir(6).should == "VI"
+  end
+
+    it "7 debe ser VII" do
+      @romano.convertir(7).should == "VII"
+  end
+
+    it "8 debe ser VIII" do
+      @romano.convertir(8).should == "VIII"
+  end
+
+
+
 end
