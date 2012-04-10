@@ -18,8 +18,11 @@ describe Romanos do
       @romano.convertir(3).should == "III"
   end
 
-  it "3 debe ser III" do
+  it "4 debe ser IV" do
       @romano.convertir(4).should == "IV"
   end
 
+  it "5 debe ser V" do
+      @romano.convertir(4).should == "IV"
+  end
 end
