@@ -1,7 +1,12 @@
 class Romanos
 
 	def convertir(numero)
-		return "I"
+		if numero = 1
+			return "I"
+		elsif numero = 2
+			return "II"
+		end
+
 	end
-	
+
 end
