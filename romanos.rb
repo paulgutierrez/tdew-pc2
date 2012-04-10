@@ -7,6 +7,8 @@ class Romanos
 				@romano += "I"
 				numero -= 1
 			end
+		else
+			@romano = "IV"
 		end
 		return @romano
 	end
