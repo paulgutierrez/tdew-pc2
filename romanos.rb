@@ -2,7 +2,7 @@ class Romanos
 
 	def convertir(numero)
 		@romano = ""
-		if numero < 3
+		if numero < 4
 			while numero > 0 do
 				@romano += "I"
 				numero -= 1

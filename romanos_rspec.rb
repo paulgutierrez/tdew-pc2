@@ -11,10 +11,11 @@ describe Romanos do
   end
 
     it "2 debe ser II" do
-      @romano.convertir(1).should == "I"
+      @romano.convertir(2).should == "II"
   end
 
   it "3 debe ser III" do
-      @romano.convertir(1).should == "I"
+      @romano.convertir(3).should == "III"
   end
+
 end
